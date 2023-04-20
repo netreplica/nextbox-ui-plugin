@@ -1,5 +1,5 @@
 ARG FROM_IMAGE=netboxcommunity/netbox
-ARG FROM_TAG=latest-ldap
+ARG FROM_TAG=v3.4-2.4.0
 ARG FROM=${FROM_IMAGE}:${FROM_TAG}
 FROM ${FROM}
 
